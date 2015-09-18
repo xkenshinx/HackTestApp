@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link activity_profile.OnFragmentInteractionListener} interface
+ * {@link activity_help_event_create.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link activity_profile#newInstance} factory method to
+ * Use the {@link activity_help_event_create#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class activity_profile extends Fragment {
+public class activity_help_event_create extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -35,11 +35,11 @@ public class activity_profile extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment activity_profile.
+     * @return A new instance of fragment activity_help_event_create.
      */
     // TODO: Rename and change types and number of parameters
-    public static activity_profile newInstance(String param1, String param2) {
-        activity_profile fragment = new activity_profile();
+    public static activity_help_event_create newInstance(String param1, String param2) {
+        activity_help_event_create fragment = new activity_help_event_create();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -47,7 +47,7 @@ public class activity_profile extends Fragment {
         return fragment;
     }
 
-    public activity_profile() {
+    public activity_help_event_create() {
         // Required empty public constructor
     }
 
@@ -64,7 +64,7 @@ public class activity_profile extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_activity_profile_create, container, false);
+        return inflater.inflate(R.layout.fragment_activity_help_event_create, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kchacon.hacktestapp.activity_help_event_create"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="#bdadff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Charity Activity Name"
+        android:id="@+id/charityActivityName"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Event / Activity Description"
+        android:id="@+id/charityDescription"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.07"
+        android:singleLine="false" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Volunteers Needed"
+        android:id="@+id/charitySeats"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Event Location"
+        android:id="@+id/charityLocation"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:text="Create event"
+        android:id="@+id/btnCreateEvent"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

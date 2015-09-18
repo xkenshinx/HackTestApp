@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kchacon.hacktestapp.activity_profile"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/profileImage"
+        android:background="#bdadff"
+        android:layout_weight="0.12"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="FirstName LastName "
+        android:id="@+id/profileFullname"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/profileEmail"
+        android:layout_weight="0.08"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Phone Number:"
+        android:id="@+id/profilePhone"
+        android:layout_weight="0.10"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Country:"
+        android:id="@+id/profileCountry"
+        android:layout_weight="0.10"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Birthdate:"
+        android:inputType="text|date"
+        android:id="@+id/profileBirthdate"
+        android:layout_weight="0.10"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:id="@+id/btnCreateProfile"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
